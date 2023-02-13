@@ -1,0 +1,57 @@
+<DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content = 'device-width, initial-scale=1.0'
+    <h1 style = "color:brown"><b>Using Young's Formula to Calculate Pediatric Dose</b></h1>
+  </head>
+<br>
+
+
+  <body style= "background-color:lightskyblue">
+    <br>
+    <big>
+    <form>
+      Patient's Age: <input type = "number" id = "age">
+      <br>
+      <br>
+      Adult Dose (mg/dose) : <input type = "number" id = "ad">
+      <br>
+      <br>
+      Drug Concentration in mg/ml:
+      <input type = "number" id = "mg">
+      / <input type = "number" id = "ml">
+      <br>
+      <br><br>
+      <button type = "button" onclick = "calc()"> <b>Calculate Pediatric Dose (mg/dose)</b></button>
+      <br>
+
+    </form>
+
+    <div id = "result"></div>
+
+
+    <br><hr><br>
+    <form>
+      <button type = "button" onclick = "dose()"><b>Pediatric Dose in Syrup (ml/dose) </b></button>
+    </form>
+    <div id = "done"></div>
+
+
+
+  </big>
+  </body>
+
+   <script src = "main.js"></script>
+  <br> <br><br><br>
+  <footer style = "color:grey">  <br><br> Some common surup concentration of various pediatric drugs are: <br>
+    Amoxicillin : 125mg/5ml or 250mg/5ml <br>
+    Metronidazole: 200mg/5ml <br>
+    Paracetamol 125mg + Ibuprofen  100mg/5ml (Flexon) <br>
+    Paracetamol= 150mg/5ml <br><br>
+    Here per dose means if adult dose of Metronidazole is 400 mg TDS, pediatric dose generated here will be 100 mg/dose ie total 300mg/day <br><br>
+    *** Please use information on this website, along with clinical discernment, experience, and knowledge of the subject matter.<br><br><br>
+    <p style = "color:blue"> Help me make this website better. Drop your feedback at <u>sub.swikriti@gmail.com </u></p>
+
+</html>
